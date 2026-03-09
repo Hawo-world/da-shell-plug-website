@@ -173,3 +173,42 @@ body {
   margin-top: 42px;
   font-size: 1.2rem;
 }
+
+@media (max-width: 900px) {
+  .about-section {
+    grid-template-columns: 1fr;
+  }
+
+  .about-image {
+    height: 55vh;
+  }
+
+  .about-text-area {
+    padding: 110px 30px 50px;
+  }
+
+  .about-pill {
+    min-width: auto;
+    width: calc(100% - 40px);
+    font-size: 1.6rem;
+    padding: 14px 20px;
+  }
+
+  .about-text {
+    max-width: 100%;
+  }
+
+  .signature {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-text p {
+    font-size: 1rem;
+  }
+
+  .about-pill {
+    font-size: 1.4rem;
+  }
+}
