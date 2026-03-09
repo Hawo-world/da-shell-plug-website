@@ -111,3 +111,65 @@ body {
     font-size: 2.8rem;
   }
 }
+
+
+.about-section {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #232323;
+}
+
+.about-image {
+  height: 100%;
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.about-text-area {
+  background: #e7dfd2;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 110px 70px 70px;
+}
+
+.about-pill {
+  position: absolute;
+  top: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #97ddd1;
+  color: #1b1b1b;
+  font-family: 'Abril Fatface', serif;
+  font-size: 2rem;
+  padding: 16px 60px;
+  border-radius: 999px;
+  min-width: 365px;
+  text-align: center;
+}
+
+.about-text {
+  max-width: 520px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #111;
+}
+
+.about-text p {
+  font-size: 1.05rem;
+  line-height: 1.5;
+  margin-bottom: 22px;
+}
+
+.signature {
+  text-align: left;
+  margin-top: 42px;
+  font-size: 1.2rem;
+}
